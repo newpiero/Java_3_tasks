@@ -1,6 +1,6 @@
-package task_1.boxFruits;
+package task_1.boxFruits.OtherClass;
 
-public abstract class Fruit {
+abstract class Fruit {
     private float weight;
 
     public Fruit(float weight) {

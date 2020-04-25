@@ -1,4 +1,4 @@
-package task_1.boxFruits;
+package task_1.boxFruits.OtherClass;
 
 public final class Apple extends Fruit {
 
