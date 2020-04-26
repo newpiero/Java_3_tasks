@@ -13,6 +13,8 @@ public class MainClass {
         Orange orange3 = new Orange();
         Apple apple1 = new Apple();
 
+        System.out.println(apple1.getWeight());
+
 
         Box<Orange> orangeBox1 = new Box<>();
         Box<Orange> orangeBox2 = new Box<>();
@@ -22,15 +24,22 @@ public class MainClass {
         orangeBox1.addFruit(orange1);
         orangeBox2.addFruit(orange2);
         orangeBox2.addFruit(orange3);
+        orangeBox2.addFruit(orange3);
+        orangeBox2.addFruit(orange3);
+        appleBox.addFruit(apple1);
+        appleBox.addFruit(apple1);
+        appleBox.addFruit(apple1);
+        appleBox.addFruit(apple1);
+        appleBox.addFruit(apple1);
         appleBox.addFruit(apple1);
 
 
-        System.out.println("Вес коробки апельсинов = " + orangeBox1.getBoxWeight());
+        System.out.println("Вес коробки апельсинов = " + orangeBox2.getBoxWeight());
         System.out.println("Вес коробки яблок = " + appleBox.getBoxWeight());
 
 
-        System.out.println(appleBox.compare(orangeBox2)); // не работает с разными типами
-        System.out.println(orangeBox1.compare(orangeBox2)); // работает с одинаковым типом
+        System.out.println(appleBox.compare(orangeBox2));
+
     }
 
 
